@@ -1,0 +1,488 @@
+{
+    "categorias": [
+        {
+            "nombre": "Mantenimiento Preventivo",
+            "servicios": [
+                {
+                    "nombre": "Cambio de aceite y filtro",
+                    "precio": {
+                        "sedan": 500,
+                        "pickup": 1400
+                    },
+                    "descripcion": "Incluye aceite sintético o semisintético y el filtro de aceite."
+                },
+                {
+                    "nombre": "Cambio de filtro de aire",
+                    "precio": {
+                        "sedan": 200,
+                        "pickup": 700
+                    },
+                    "descripcion": "Sustitución del filtro de aire del motor para mantener la eficiencia del combustible."
+                },
+                {
+                    "nombre": "Cambio de filtro de combustible",
+                    "precio": {
+                        "sedan": 800,
+                        "pickup": 2500
+                    },
+                    "descripcion": "Filtra impurezas del combustible para proteger el motor."
+                },
+                {
+                    "nombre": "Cambio de filtro de cabina",
+                    "precio": {
+                        "sedan": 250,
+                        "pickup": 900
+                    },
+                    "descripcion": "Filtra el aire que entra al habitáculo."
+                },
+                {
+                    "nombre": "Rotación y alineación de llantas",
+                    "precio": {
+                        "sedan": 300,
+                        "pickup": 1700
+                    },
+                    "descripcion": "Ayuda a prolongar la vida útil de las llantas y mantener una conducción segura."
+                },
+                {
+                    "nombre": "Balanceo de llantas",
+                    "precio": {
+                        "sedan": 150,
+                        "pickup": 600
+                    },
+                    "descripcion": "Elimina vibraciones y mejora la estabilidad."
+                },
+                {
+                    "nombre": "Inspección de frenos",
+                    "precio": {
+                        "sedan": 400,
+                        "pickup": 800
+                    },
+                    "descripcion": "Incluye revisión de pastillas, discos y niveles de líquido de frenos."
+                }
+            ]
+        },
+        {
+            "nombre": "Sistema de Frenos",
+            "servicios": [
+                {
+                    "nombre": "Cambio de pastillas de freno",
+                    "precio": {
+                        "sedan": 1500,
+                        "pickup": 4500
+                    },
+                    "descripcion": "Sustitución de pastillas delanteras o traseras, con mano de obra incluida."
+                },
+                {
+                    "nombre": "Cambio de discos de freno",
+                    "precio": {
+                        "sedan": 3500,
+                        "pickup": 9000
+                    },
+                    "descripcion": "Reemplazo de discos delanteros o traseros para mejorar la frenada."
+                },
+                {
+                    "nombre": "Cambio de líquido de frenos",
+                    "precio": {
+                        "sedan": 800,
+                        "pickup": 1900
+                    },
+                    "descripcion": "Cambio y purgado del sistema de frenos para un rendimiento óptimo."
+                }
+            ]
+        },
+        {
+            "nombre": "Sistema de Suspensión",
+            "servicios": [
+                {
+                    "nombre": "Cambio de amortiguadores",
+                    "precio": {
+                        "sedan": 5000,
+                        "pickup": 12000
+                    },
+                    "descripcion": "Incluye amortiguadores delanteros y traseros."
+                },
+                {
+                    "nombre": "Cambio de muelles o resortes",
+                    "precio": {
+                        "sedan": 2500,
+                        "pickup": 6000
+                    },
+                    "descripcion": "Sustitución de resortes que ayudan a la suspensión del vehículo."
+                },
+                {
+                    "nombre": "Cambio de bujes o soportes",
+                    "precio": {
+                        "sedan": 1500,
+                        "pickup": 4500
+                    },
+                    "descripcion": "Reemplazo de bujes desgastados que reducen ruidos y vibraciones."
+                }
+            ]
+        },
+        {
+            "nombre": "Sistema de Dirección",
+            "servicios": [
+                {
+                    "nombre": "Alineación de la dirección",
+                    "precio": {
+                        "sedan": 800,
+                        "pickup": 2200
+                    },
+                    "descripcion": "Corrección de la dirección para evitar desgaste de llantas."
+                },
+                {
+                    "nombre": "Cambio de líquido de dirección",
+                    "precio": {
+                        "sedan": 1200,
+                        "pickup": 2500
+                    },
+                    "descripcion": "Sustitución del fluido hidráulico para un funcionamiento suave de la dirección."
+                }
+            ]
+        },
+        {
+            "nombre": "Sistema de Enfriamiento",
+            "servicios": [
+                {
+                    "nombre": "Cambio de líquido refrigerante",
+                    "precio": {
+                        "sedan": 1000,
+                        "pickup": 2800
+                    },
+                    "descripcion": "Cambio de refrigerante para mantener el motor a una temperatura adecuada."
+                },
+                {
+                    "nombre": "Cambio de radiador",
+                    "precio": {
+                        "sedan": 5500,
+                        "pickup": 12500
+                    },
+                    "descripcion": "Incluye el radiador y la mano de obra para su instalación."
+                },
+                {
+                    "nombre": "Cambio de termostato",
+                    "precio": {
+                        "sedan": 2000,
+                        "pickup": 4500
+                    },
+                    "descripcion": "Regula la temperatura del motor y ayuda a evitar el sobrecalentamiento."
+                }
+            ]
+        },
+        {
+            "nombre": "Sistema de Escape",
+            "servicios": [
+                {
+                    "nombre": "Cambio de silenciador",
+                    "precio": {
+                        "sedan": 1800,
+                        "pickup": 5000
+                    },
+                    "descripcion": "Reemplazo del silenciador para reducir el ruido del escape."
+                },
+                {
+                    "nombre": "Cambio de convertidor catalítico",
+                    "precio": {
+                        "sedan": 9000,
+                        "pickup": 35000
+                    },
+                    "descripcion": "Sustitución del convertidor que reduce emisiones contaminantes."
+                },
+                {
+                    "nombre": "Cambio de tubo de escape",
+                    "precio": {
+                        "sedan": 2500,
+                        "pickup": 8000
+                    },
+                    "descripcion": "Reemplazo de secciones dañadas o corroídas del escape."
+                }
+            ]
+        },
+        {
+            "nombre": "Motor y Transmisión",
+            "servicios": [
+                {
+                    "nombre": "Ajuste del motor (tune-up)",
+                    "precio": {
+                        "sedan": 2500,
+                        "pickup": 9000
+                    },
+                    "descripcion": "Revisión general del motor incluyendo bujías, filtros y limpieza."
+                },
+                {
+                    "nombre": "Cambio de bujías",
+                    "precio": {
+                        "sedan": 800,
+                        "pickup": 2500
+                    },
+                    "descripcion": "Sustitución de bujías para mejorar la ignición y el rendimiento del motor."
+                },
+                {
+                    "nombre": "Cambio de cables de bujías",
+                    "precio": {
+                        "sedan": 900,
+                        "pickup": 2500
+                    },
+                    "descripcion": "Reemplazo de los cables que llevan la chispa a las bujías."
+                },
+                {
+                    "nombre": "Cambio de correas (distribución o accesorios)",
+                    "precio": {
+                        "sedan": 5000,
+                        "pickup": 18000
+                    },
+                    "descripcion": "Reemplazo de la correa de distribución y accesorios críticos del motor."
+                },
+                {
+                    "nombre": "Cambio de bomba de agua",
+                    "precio": {
+                        "sedan": 4000,
+                        "pickup": 10500
+                    },
+                    "descripcion": "Sustitución de la bomba que circula el refrigerante en el motor."
+                },
+                {
+                    "nombre": "Cambio de aceite de transmisión",
+                    "precio": {
+                        "sedan": 1800,
+                        "pickup": 5000
+                    },
+                    "descripcion": "Cambio del aceite de la transmisión manual o automática."
+                }
+            ]
+        },
+        {
+            "nombre": "Sistema Eléctrico",
+            "servicios": [
+                {
+                    "nombre": "Cambio de batería",
+                    "precio": {
+                        "sedan": 1500,
+                        "pickup": 4500
+                    },
+                    "descripcion": "Instalación de una nueva batería dependiendo de la capacidad y marca."
+                },
+                {
+                    "nombre": "Cambio de alternador",
+                    "precio": {
+                        "sedan": 5000,
+                        "pickup": 15000
+                    },
+                    "descripcion": "Sustitución del alternador para mantener el sistema eléctrico operativo."
+                },
+                {
+                    "nombre": "Cambio de motor de arranque",
+                    "precio": {
+                        "sedan": 4000,
+                        "pickup": 12000
+                    },
+                    "descripcion": "Reemplazo del motor que permite el encendido del vehículo."
+                },
+                {
+                    "nombre": "Revisión y reemplazo de fusibles",
+                    "precio": {
+                        "sedan": 200,
+                        "pickup": 1000
+                    },
+                    "descripcion": "Cambio de fusibles dañados y revisión de componentes eléctricos."
+                }
+            ]
+        },
+        {
+            "nombre": "Otras Reparaciones Comunes",
+            "servicios": [
+                {
+                    "nombre": "Cambio de luces delanteras y traseras",
+                    "precio": {
+                        "sedan": 300,
+                        "pickup": 1200
+                    },
+                    "descripcion": "Sustitución de faros, luces traseras o direccionales."
+                },
+                {
+                    "nombre": "Cambio de parabrisas",
+                    "precio": {
+                        "sedan": 4000,
+                        "pickup": 10000
+                    },
+                    "descripcion": "Reemplazo del parabrisas, dependiendo del modelo y tamaño."
+                },
+                {
+                    "nombre": "Cambio de motor de limpiaparabrisas",
+                    "precio": {
+                        "sedan": 3000,
+                        "pickup": 6000
+                    },
+                    "descripcion": "Reemplazo del motor que acciona las escobillas del parabrisas."
+                },
+                {
+                    "nombre": "Ajuste y alineación de puertas",
+                    "precio": {
+                        "sedan": 500,
+                        "pickup": 2000
+                    },
+                    "descripcion": "Corrección de la alineación de puertas para mejorar el sellado y cierre."
+                }
+            ]
+        },
+        {
+            "nombre": "Mantenimiento y Servicios Especializados",
+            "servicios": [
+                {
+                    "nombre": "Limpieza de inyectores",
+                    "precio": {
+                        "sedan": 800,
+                        "pickup": 2500
+                    },
+                    "descripcion": "Limpieza ultrasónica o por aditivos para mantener un buen flujo de combustible en el motor."
+                },
+                {
+                    "nombre": "Calibración de válvulas",
+                    "precio": {
+                        "sedan": 1200,
+                        "pickup": 4000
+                    },
+                    "descripcion": "Ajuste de válvulas del motor para mantener un rendimiento óptimo y evitar ruidos."
+                },
+                {
+                    "nombre": "Sincronización del motor",
+                    "precio": {
+                        "sedan": 2500,
+                        "pickup": 6500
+                    },
+                    "descripcion": "Ajuste y sincronización de los sistemas electrónicos y mecánicos del motor."
+                },
+                {
+                    "nombre": "Rectificación de cabezote",
+                    "precio": {
+                        "sedan": 3000,
+                        "pickup": 12000
+                    },
+                    "descripcion": "Rectificación o fresado del cabezote del motor para solucionar fugas o problemas de compresión."
+                },
+                {
+                    "nombre": "Ajuste de transmisión automática",
+                    "precio": {
+                        "sedan": 5000,
+                        "pickup": 15000
+                    },
+                    "descripcion": "Incluye ajustes electrónicos y mecánicos en la caja automática."
+                },
+                {
+                    "nombre": "Reparación o reconstrucción del motor",
+                    "precio": {
+                        "sedan": 15000,
+                        "pickup": 50000
+                    },
+                    "descripcion": "Reparación completa del motor, incluyendo cambio de pistones, bielas, etc."
+                },
+                {
+                    "nombre": "Revisión y carga del sistema de aire acondicionado",
+                    "precio": {
+                        "sedan": 1000,
+                        "pickup": 3000
+                    },
+                    "descripcion": "Verificación y recarga del gas refrigerante en el sistema de A/C."
+                },
+                {
+                    "nombre": "Cambio de sensor de oxígeno",
+                    "precio": {
+                        "sedan": 1200,
+                        "pickup": 3500
+                    },
+                    "descripcion": "Sustitución de sensor O2 para una mejor regulación de la mezcla aire/combustible."
+                },
+                {
+                    "nombre": "Cambio de bobinas de encendido",
+                    "precio": {
+                        "sedan": 1800,
+                        "pickup": 5000
+                    },
+                    "descripcion": "Reemplazo de bobinas que generan la chispa para las bujías."
+                },
+                {
+                    "nombre": "Ajuste o reparación del embrague",
+                    "precio": {
+                        "sedan": 4000,
+                        "pickup": 12000
+                    },
+                    "descripcion": "Cambio del disco, plato y balero del embrague para mejorar la transmisión de potencia."
+                }
+            ]
+        },
+        {
+            "nombre": "Sistema de Diagnóstico y Electrónica",
+            "servicios": [
+                {
+                    "nombre": "Diagnóstico por escáner OBD-II",
+                    "precio": {
+                        "sedan": 500,
+                        "pickup": 1500
+                    },
+                    "descripcion": "Lectura y diagnóstico de códigos de falla en la computadora del vehículo."
+                },
+                {
+                    "nombre": "Reprogramación de computadora (ECU)",
+                    "precio": {
+                        "sedan": 3000,
+                        "pickup": 10000
+                    },
+                    "descripcion": "Reprogramación del software de la ECU para mejorar rendimiento o solucionar problemas."
+                },
+                {
+                    "nombre": "Actualización de sistema de infoentretenimiento",
+                    "precio": {
+                        "sedan": 1500,
+                        "pickup": 5000
+                    },
+                    "descripcion": "Actualización de software de navegación o multimedia."
+                },
+                {
+                    "nombre": "Instalación de sensores de reversa",
+                    "precio": {
+                        "sedan": 2000,
+                        "pickup": 5000
+                    },
+                    "descripcion": "Instalación de sensores para ayudar a estacionarse de forma segura."
+                },
+                {
+                    "nombre": "Instalación de cámara de reversa",
+                    "precio": {
+                        "sedan": 3000,
+                        "pickup": 8000
+                    },
+                    "descripcion": "Colocación de una cámara para mejorar la visibilidad al retroceder."
+                }
+            ]
+        },
+        {
+            "nombre": "Servicios de Ajuste",
+            "servicios": [
+                {
+                    "nombre": "Ajuste de puertas y ventanas eléctricas",
+                    "precio": {
+                        "sedan": 1000,
+                        "pickup": 3000
+                    },
+                    "descripcion": "Corrección de fallas en los motores eléctricos o en los rieles de las ventanas para asegurar su funcionamiento adecuado."
+                },
+                {
+                    "nombre": "Ajuste y calibración del sistema de luces",
+                    "precio": {
+                        "sedan": 400,
+                        "pickup": 1200
+                    },
+                    "descripcion": "Verificación de la alineación y ajuste de luces delanteras para una mejor visibilidad y seguridad en la conducción."
+                },
+                {
+                    "nombre": "Cambio de espejos retrovisores o laterales",
+                    "precio": {
+                        "sedan": 500,
+                        "pickup": 2500
+                    },
+                    "descripcion": "Reemplazo o ajuste de espejos retrovisores o laterales para mejorar la visibilidad y seguridad del vehículo."
+                }
+            ]
+        }
+    ]
+}
