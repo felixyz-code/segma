@@ -1,6 +1,6 @@
 [build]
   command = "ng build --prod"
-  publish = "dist/segma2"
+  publish = "dist/segma2/browser"
 
 [[redirects]]
   from = "/*"
