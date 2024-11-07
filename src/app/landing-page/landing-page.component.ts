@@ -52,4 +52,6 @@ export class LandingPageComponent {
   serviceDate: String = 'Fecha del servicio';
   specialRequest: String = 'Solicitud especial';
   bookNow: String = 'Agenda ahora';
+  knowUs: String = 'Conócenos';
+  ourExpertTechnicians: String = 'Nuestros técnicos expertos';
 }
