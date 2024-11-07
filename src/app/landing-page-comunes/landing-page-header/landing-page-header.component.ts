@@ -13,11 +13,11 @@ export class LandingPageHeaderComponent {
   schedule: String = 'Lunes a Sábado de 9:00 a 18:00 hrs';
   phone: String = '622 221 22 22';
   home: String = 'Inicio';
-  about: String = 'Acerca de Nosotros';
+  about: String = 'Acerca de';
   services: String = 'Servicios';
-  pages: String = 'Páginas';
+  pages: String = 'Más';
   booking: String = 'Solicitar Cita';
   team: String = 'Nuestro Equipo';
-  testimonial: String = 'Testimonios';
   login: String = 'Iniciar Sesión';
+  contact: String = 'Contacto';
 }
