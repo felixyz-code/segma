@@ -1,1 +1,70 @@
-<p>cotizacion works!</p>
+<app-dashboard-header></app-dashboard-header>
+
+<form [formGroup]="cotizacionForm" (ngSubmit)="onSubmit()" class="p-4 border rounded bg-light mx-auto mt-4"
+    style="max-width: 900px;">
+
+    <!-- Cliente -->
+    <fieldset class="mb-4">
+        <legend class="h5 mb-3">Cliente</legend>
+        <div class="row">
+            <div class="col-md-6 form-group">
+                <label>Nombre del cliente</label>
+                <input formControlName="nombreCliente" class="form-control" required />
+            </div>
+            <div class="col-md-6 form-group">
+                <label>Vehículo</label>
+                <input formControlName="vehiculo" class="form-control" required />
+            </div>
+            <div class="col-md-6 form-group">
+                <label>Año</label>
+                <input formControlName="anio" type="number" class="form-control" required />
+            </div>
+            <div class="col-md-6 form-group">
+                <label>CRP</label>
+                <input formControlName="crp" class="form-control" required />
+            </div>
+            <div class="col-md-6 form-group">
+                <label>Odómetro</label>
+                <input formControlName="odometro" type="number" class="form-control" required />
+            </div>
+            <div class="col-md-6 form-group">
+                <label>VIN</label>
+                <input formControlName="vin" class="form-control" required />
+            </div>
+        </div>
+    </fieldset>
+
+    <!-- Refacciones -->
+    <fieldset class="mb-4">
+        <legend class="h5 mb-3">Refacciones</legend>
+        <div class="row">
+            <div class="col-md-6 form-group">
+                <label>Nombre de la refacción</label>
+                <input formControlName="descripcionRefaccion" class="form-control" required />
+            </div>
+            <div class="col-md-6 form-group">
+                <label>Cantidad</label>
+                <input formControlName="cantidadRefaccion" type="number" class="form-control" required />
+            </div>
+        </div>
+    </fieldset>
+
+    <!-- Mano de Obra -->
+    <fieldset class="mb-4">
+        <legend class="h5 mb-3">Mano de Obra</legend>
+        <div class="row">
+            <div class="col-md-6 form-group">
+                <label>Nombre del servicio</label>
+                <input formControlName="descripcionManoObra" class="form-control" required />
+            </div>
+            <div class="col-md-6 form-group">
+                <label>Cantidad</label>
+                <input formControlName="cantidadManoObra" type="number" class="form-control" required />
+            </div>
+        </div>
+    </fieldset>
+
+    <!-- Botón de envío -->
+    <button type="submit" class="btn btn-primary btn-block mt-4" [disabled]="cotizacionForm.invalid">Generar
+        Cotización</button>
+</form>
